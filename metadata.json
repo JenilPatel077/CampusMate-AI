@@ -1,0 +1,6 @@
+{
+  "name": "CampusMate | AITS Student Portal",
+  "description": "Apex Institute of Technology & Sciences official student portal for campus information, grievance redressal, notices, FAQs, and AI campus assistance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

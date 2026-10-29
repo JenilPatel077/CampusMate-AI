@@ -1,0 +1,222 @@
+---
+name: Academic Prestige Modern
+colors:
+  surface: '#faf8ff'
+  surface-dim: '#d2d9f4'
+  surface-bright: '#faf8ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f2f3ff'
+  surface-container: '#eaedff'
+  surface-container-high: '#e2e7ff'
+  surface-container-highest: '#dae2fd'
+  on-surface: '#131b2e'
+  on-surface-variant: '#434655'
+  inverse-surface: '#283044'
+  inverse-on-surface: '#eef0ff'
+  outline: '#747686'
+  outline-variant: '#c4c5d7'
+  surface-tint: '#2151da'
+  primary: '#0037b0'
+  on-primary: '#ffffff'
+  primary-container: '#1d4ed8'
+  on-primary-container: '#cad3ff'
+  inverse-primary: '#b7c4ff'
+  secondary: '#4b41e1'
+  on-secondary: '#ffffff'
+  secondary-container: '#645efb'
+  on-secondary-container: '#fffbff'
+  tertiary: '#004f35'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#006948'
+  on-tertiary-container: '#76eab6'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#dce1ff'
+  primary-fixed-dim: '#b7c4ff'
+  on-primary-fixed: '#001551'
+  on-primary-fixed-variant: '#0039b5'
+  secondary-fixed: '#e2dfff'
+  secondary-fixed-dim: '#c3c0ff'
+  on-secondary-fixed: '#0f0069'
+  on-secondary-fixed-variant: '#3323cc'
+  tertiary-fixed: '#85f8c4'
+  tertiary-fixed-dim: '#68dba9'
+  on-tertiary-fixed: '#002114'
+  on-tertiary-fixed-variant: '#005137'
+  background: '#faf8ff'
+  on-background: '#131b2e'
+  surface-variant: '#dae2fd'
+typography:
+  headline-display:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 40px
+    fontWeight: '800'
+    lineHeight: 48px
+    letterSpacing: -0.03em
+  headline-display-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 30px
+    fontWeight: '800'
+    lineHeight: 38px
+    letterSpacing: -0.025em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.025em
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '700'
+    lineHeight: 32px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.02em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.015em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+    letterSpacing: -0.005em
+  body-md:
+    fontFamily: Inter
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: -0.005em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-micro:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 10px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.08em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+The design system projects elite institutional intelligence, modern academic rigor, and computational precision. Created for ambitious students, distinguished faculty, and executive university administrators, it bridges enterprise-grade reliability with fluid, modern generative-AI ergonomics.
+
+The visual style is **Contemporary Executive Glass & Precision Flat**. It eschews heavy skeumorphism and stark brutalism in favor of crisp porcelain canvases, razor-sharp translucent glass treatments, controlled ambient diffusion, and subtle indigo-tinged micro-borders. The resulting interface feels calm, authoritative, frictionless, and unmistakably premium.
+
+## Colors
+
+The palette relies on a surgical separation of structural depth, high-legibility text hierarchy, and communicative state accents:
+
+- **Base & Canvas**: Primary application backdrop uses `#f8fafc` (Slate 50), while active cards and elevated panels use `#ffffff`. Secondary background panels utilize `#f1f5f9` (Slate 100), bordered with `#e2e8f0` (Slate 200).
+- **Typography & Content**: Headlines and high-emphasis body text sit in ultra-deep Navy `#091e42` and `#0f172a` (Slate 900). Secondary metadata settles into `#475569` (Slate 600), while subtle captions occupy `#64748b` (Slate 500).
+- **Brand & Action**: The primary action system is driven by Royal Blue (`#1d4ed8`), interacting with hover states at `#2563eb`. Deep Violet/Indigo (`#4f46e5`) serves as the secondary accent for AI-augmented insights and computational intelligence touchpoints.
+- **System Feedback**: Emerald (`#059669`) provides affirmative success states and high GPA/attendance badges; Amber (`#d97706`) indicates urgent notices and scheduling thresholds; Rose (`#e11d48`) provides critical error guidance and overdue task status. Every color pairing complies strictly with WCAG AAA for normal or large typography.
+
+## Typography
+
+The typographic hierarchy pairs **Plus Jakarta Sans** for expressive headings and navigational wayfinding with **Inter** for dense data grids, analytics, and generative-AI conversational readability:
+
+- **Headlines**: Tight negative letter-spacing (`-0.02em` to `-0.03em`) on Plus Jakarta Sans creates a modern, editorial tone that eliminates visual sloppiness across high-density dashboards.
+- **Body Content**: Inter provides vertical balance with a line-height ratio of 1.6x, ensuring that complex research abstracts, syllabi, and multi-turn AI responses remain fatigue-free during extended sessions.
+- **Micro-Labels**: Specialized tokens (`label-micro`) are rendered in uppercase with wide letter tracking (`+0.08em`) at 10px/700 weight for data attribution, academic term chips, and status categorizations.
+
+## Layout & Spacing
+
+The structural framework is built on an adaptable 12-column fluid grid governed by a strict 4px/8px incremental spacing rhythm:
+
+- **Breakpoints**: 
+  - Mobile: `< 640px` (4-column grid, `margin-mobile` of 1rem, `gutter-mobile` of 1rem).
+  - Tablet: `640px – 1024px` (8-column grid, `margin` of 1.5rem, `gutter` of 1.25rem).
+  - Desktop: `> 1024px` (12-column grid, capped at 1600px wide, `margin` of 2rem, `gutter` of 1.5rem).
+- **Rhythm**: Component interiors standardize on `space-md` (1rem) for basic cards, scaling to `space-lg` (1.5rem) and `space-xl` (2.5rem) for high-impact analytical module wrappers and conversational canvas surfaces. Gaps between functional clusters consistently track the 8px baseline (`0.5rem`, `1rem`, `1.5rem`).
+
+## Elevation & Depth
+
+Visual hierarchy utilizes a dual technique of multi-stop diffused ambient occlusion and glassmorphic structural boundaries:
+
+- **Ambient Layering**: Rather than stark, heavy black drop-shadows, cards float via dual-pass low-opacity shadows:
+  - *Resting Surface*: `0 1px 3px rgba(15, 23, 42, 0.04), 0 1px 2px rgba(15, 23, 42, 0.02)`
+  - *Elevated Card*: `0 4px 6px -1px rgba(15, 23, 42, 0.03), 0 10px 15px -3px rgba(15, 23, 42, 0.04)`
+  - *Floating Modals & Popovers*: `0 20px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04)`
+- **Glassmorphism**: Fixed navigation bars, contextual sub-headers, and chat interaction bars employ `backdrop-filter: blur(12px)` over an 85% opacity surface (`rgba(255, 255, 255, 0.85)`).
+- **Micro-Borders**: Every panel, card, and floating container is delineated by a 1px micro-border (`1px solid rgba(226, 232, 240, 0.8)`). Interactive hover states shift the border color to a faint tint of royal blue (`rgba(29, 78, 216, 0.25)`).
+
+## Shapes
+
+The design system employs a geometric shape language that pairs spacious outer curves with compact inner structures:
+
+- **Cards & Primary Modules**: Styled with `rounded-2xl` (1rem / 16px) for an approachable, high-end software surface.
+- **Controls & Form Elements**: Text inputs, select menus, and regular action triggers follow standard `0.5rem` (8px) corners to preserve compact density and alignment.
+- **Chips, Badges, & Avatars**: Explicitly pill-shaped (`rounded-full` / `9999px`) to cleanly distinguish metadata, status tags, and user avatars from informational layout containers.
+
+## Components
+
+### Buttons
+- **Primary**: Solid Royal Blue (`#1d4ed8`), text `#ffffff`, height 42px, radius 8px, font `label-md`. Smooth hover transition to `#2563eb` accompanied by a micro-elevation of `0 4px 12px rgba(29, 78, 216, 0.2)`.
+- **Secondary / AI Action**: Subtly tinted Indigo fill (`rgba(79, 70, 229, 0.08)`), text `#4f46e5`, border `1px solid rgba(79, 70, 229, 0.2)`. Hover background shifts to `rgba(79, 70, 229, 0.12)`.
+- **Ghost**: Transparent fill, text `#475569`, hover background `#f1f5f9`, hover text `#0f172a`.
+
+### Chips & Badges
+- Pill-shaped (`rounded-full`), padding `4px 12px`, typography `label-sm` or `label-micro`.
+- **Success**: Background `#ecfdf5`, text `#059669`, border `1px solid rgba(5, 150, 105, 0.2)`.
+- **Warning**: Background `#fffbeb`, text `#d97706`, border `1px solid rgba(217, 119, 6, 0.2)`.
+- **Urgent / Error**: Background `#fff1f2`, text `#e11d48`, border `1px solid rgba(225, 29, 72, 0.2)`.
+- **Academic AI Category**: Background `#eef2ff`, text `#4f46e5`, border `1px solid rgba(79, 70, 229, 0.2)`.
+
+### Input Fields & Controls
+- **Text Inputs**: Height 44px, background `#ffffff`, border `1px solid #e2e8f0`, corner radius 8px, font `body-md` in `#0f172a`. Placeholder `#94a3b8`. Focus state applies a 1px border of `#1d4ed8` along with an ambient focus ring of `0 0 0 3px rgba(29, 78, 216, 0.12)`.
+- **Checkboxes & Radios**: 18px diameter, border `1.5px solid #cbd5e1`, radius 4px (checkbox) or circular (radio). Active state fills with `#1d4ed8` and displays a crisp white indicator.
+
+### Data Tables
+- Header row features uppercase micro-labels (`label-micro`) in `#64748b`, pinned with a 1px solid border at `#e2e8f0`.
+- Data rows feature alternating subtle fills (`#ffffff` and `#fcfdfe`), 48px row heights, and vertical alignment centering with smooth row hover highlighting (`#f8fafc`).
+
+### Cards & Analytical Modules
+- Structured on `#ffffff` surfaces with the layered elevation shadow token and 1px micro-border (`rgba(226, 232, 240, 0.8)`). Internal padding is fixed to `1.5rem`. Card headers pair a `headline-sm` title with metadata pill tags.
+
+### Conversational UI (AI Assistant)
+- **User Message**: Solid slate tint (`#f1f5f9`), text `#0f172a`, radius `16px 16px 4px 16px`.
+- **AI Response**: Crisp white card surface (`#ffffff`), 1px micro-border, radius `16px 16px 16px 4px`, elevated by resting ambient shadow. Features an indigo intelligence indicator badge and actionable inline citation chips.
